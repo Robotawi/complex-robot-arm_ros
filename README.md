@@ -18,9 +18,9 @@ My Xacro model build a 6 dof robotic arm using multiple xacro proprties for flex
 
 To change the shoilder or the elbow link length, set the desired valuein the following 
 ```
-<xacro:property name="shoulder_pitch_len" value="2.14"/> <!--set shoulder link length-->
+<xacro:property name="shoulder_pitch_len" value="0.15"/> <!--set shoulder link length-->
 
-<xacro:property name="elbow_pitch_len" value="2.22"/> <!--set elbow link length-->
+<xacro:property name="elbow_pitch_len" value="0.25"/> <!--set elbow link length-->
 ```
 
 #### 2. Visualize the arm in Rviz for the iterative design and the testing. 
