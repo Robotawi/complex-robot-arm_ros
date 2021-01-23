@@ -42,7 +42,7 @@ ___
   <xacro:property name="LINK_WIDTH" value="0.05"/> 
 ```
 
-![](./project_img/two_robots_med2.png)
+![](./project_img/two_robots_med.png)
 
 ___
 
@@ -59,7 +59,7 @@ ___
   <xacro:property name="LINK_WIDTH" value="0.10"/> 
 ```
 
-![](./project_img/two_robots_med.png)
+![](./project_img/two_robots_med2.png)
 
 ___
 
@@ -82,5 +82,7 @@ ___
 ___
 
 ### Visualize the arm in Rviz and simulate in Gazebo world
-This [project](https://github.com/Robotawi/rrr-arm) shows the second step in the development, which is to visalize the arm in Rviz, and simulate in Gazebo. The third step of the development is to produced MoveIt package for our robots, and interface them with Gazebo. This [project](https://github.com/Robotawi/rrr_arm_config) details how to do the third step with your custom robot arm. 
+* This [project](https://github.com/Robotawi/rrr-arm) shows the second step in the development, which is to visalize the arm in Rviz, and simulate in Gazebo.
+
+* The third step of the development is to produced MoveIt package for our robots, and interface them with Gazebo. This [project](https://github.com/Robotawi/rrr_arm_config) details how to do the third step with your custom robot arm. 
 
