@@ -10,24 +10,14 @@ My Xacro model build a 6 dof robotic arm using multiple xacro proprties for flex
 ```
 <xacro:property name="LINK_TYPE" value="CYLINDER"/>
 ```
-![](./project_img/two_robot_small.png) 
-
-![](./project_img/two_robot_med_2_wid.png) 
-![](./project_img/two_robot_med.png) 
-
+![](./project_img/two_robots.png)
+![](./project_img/two_robots_med.png)
+![](./project_img/two_robots_med2.png)
+![](./project_img/two_robots_large.png)
 
 ```
 <xacro:property name="LINK_TYPE" value="BOX"/>
 ```
-
-
-![](./project_img/robot_box_med.png) ![](./project_img/robot_cylinder_med.png)
-
-
-![](./project_img/robot_cylinder_med_2_wid.png)![](./project_img/robot_box_med_2_wid.png) 
-
-![](./project_img/robot_cylinder_med_2_len.png)
-![](./project_img/robot_box_med_2_len.png)
 
 To change the shoilder or the elbow link length, set the desired valuein the following 
 ```
